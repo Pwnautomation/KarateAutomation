@@ -1,0 +1,10 @@
+{
+    "TestLogin": {
+        "Username": "pteach1",
+        "Password": "password"
+    },
+    "InvalidLogin":{
+        "Username":"student",
+        "Password": "password"
+    }
+}
