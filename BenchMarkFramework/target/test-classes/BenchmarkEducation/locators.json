@@ -1,0 +1,16 @@
+{
+    "TestLogin": {
+       
+            "Username": "//input[@id='username']",
+            "Password": "//input[@id='password']",
+            "Submit": "//button[@type='submit']"
+    },
+    "Logout": {
+        "LogoutButton": "//a[@class='wp-block-button__link has-text-color has-background has-very-dark-gray-background-color']"
+    },
+    "ResourceLibrary": {
+        "checkbox_AddtoAssignment": "//span[normalize-space()='Add to Bookshelf']"
+
+    }
+    
+}

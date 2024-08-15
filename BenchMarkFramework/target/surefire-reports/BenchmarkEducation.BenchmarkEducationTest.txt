@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: BenchmarkEducation.BenchmarkEducationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 138.665 s <<< FAILURE! - in BenchmarkEducation.BenchmarkEducationTest
+testParallel  Time elapsed: 138.656 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: retry(NoOfRetry).waitForText("//h3[text()='Whole Group Teacher Resources']",'Whole Group Teacher Resources')
+<<<<
+org.graalvm.polyglot.PolyglotException: waitUntil (js): failed after 10 retries and 63286 milliseconds
+- com.intuit.karate.driver.DriverOptions.retry(DriverOptions.java:517)
+- com.intuit.karate.driver.DevToolsDriver.waitUntil(DevToolsDriver.java:765)
+- com.intuit.karate.driver.DriverOptions.waitUntil(DriverOptions.java:674)
+- com.intuit.karate.driver.Driver.waitUntil(Driver.java:283)
+- com.intuit.karate.driver.Driver.waitForText(Driver.java:247)
+- <js>.:program(Unnamed:1)
+
+classpath:BenchmarkEducation/FeatureFiles/BenchmarkUniverse.feature:107 ==> expected: <0> but was: <1>
+	at BenchmarkEducation.BenchmarkEducationTest.testParallel(BenchmarkEducationTest.java:27)
+

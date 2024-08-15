@@ -1,0 +1,349 @@
+17:13:42.703 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @Test5
+17:13:44.982 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:13:50.550 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:BenchmarkEducation/FeatureFiles/ReUsable.feature - call by tag at line 12: SignIn
+17:13:50.706 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 9, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:186
+    at <anonymous>:1:195, objectId=-8140358101856018013.1.1}]]
+17:13:50.709 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Sign in') }; var e = document.evaluate("//h2[@id='sign-in-header']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:186
+    at <anonymous>:1:195, objectId=-8140358101856018013.1.1}]
+17:13:55.624 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 73, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.3}]]
+17:13:55.624 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.3}]
+17:13:58.637 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 74, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.5}]]
+17:13:58.638 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.5}]
+17:13:58.638 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.5}]
+17:14:01.647 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 75, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.7}]]
+17:14:01.649 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.7}]
+17:14:04.652 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 76, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.9}]]
+17:14:04.652 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.9}]
+17:14:04.653 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.9}]
+17:14:07.664 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 77, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.11}]]
+17:14:07.664 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.11}]
+17:14:10.674 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 78, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.13}]]
+17:14:10.675 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.13}]
+17:14:10.676 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.13}]
+17:14:13.684 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 79, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.15}]]
+17:14:13.685 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.15}]
+17:14:16.693 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 80, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.17}]]
+17:14:16.694 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.17}]
+17:14:16.694 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.17}]
+17:14:19.703 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 81, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.19}]]
+17:14:19.704 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.19}]
+17:14:22.721 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 82, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.21}]]
+17:14:22.722 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.21}]
+17:14:22.722 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Curriculum Resources') }; var e = document.evaluate("//h3[text()='Curriculum Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:208
+    at <anonymous>:1:217, objectId=-8140358101856018013.1.21}]
+17:14:25.749 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 86, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.23}]]
+17:14:25.751 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.23}]
+17:14:28.759 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 87, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.25}]]
+17:14:28.760 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.25}]
+17:14:28.760 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.25}]
+17:14:31.767 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 88, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.27}]]
+17:14:31.767 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.27}]
+17:14:34.779 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 89, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.31}]]
+17:14:34.780 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.31}]
+17:14:34.780 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.31}]
+17:14:37.796 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 90, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.33}]]
+17:14:37.797 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.33}]
+17:14:40.814 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 91, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.35}]]
+17:14:40.815 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.35}]
+17:14:40.815 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.35}]
+17:14:43.831 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 92, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.37}]]
+17:14:43.832 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.37}]
+17:14:46.840 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 93, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.39}]]
+17:14:46.840 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.39}]
+17:14:46.841 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.39}]
+17:14:49.855 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 94, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.41}]]
+17:14:49.855 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.41}]
+17:14:52.869 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 95, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.43}]]
+17:14:52.869 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.43}]
+17:14:52.870 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.43}]
+17:14:55.882 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 96, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.45}]]
+17:14:55.882 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.45}]
+17:14:58.888 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 97, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.47}]]
+17:14:58.888 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.47}]
+17:14:58.889 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.47}]
+17:15:01.900 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 98, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.49}]]
+17:15:01.900 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.49}]
+17:15:04.914 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 99, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.51}]]
+17:15:04.914 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.51}]
+17:15:04.915 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.51}]
+17:15:07.931 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 100, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.53}]]
+17:15:07.931 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.53}]
+17:15:10.945 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 101, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.55}]]
+17:15:10.945 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.55}]
+17:15:10.946 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.55}]
+17:15:13.964 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 102, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.57}]]
+17:15:13.965 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.57}]
+17:15:16.981 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 103, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.59}]]
+17:15:16.981 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.59}]
+17:15:16.982 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.59}]
+17:15:19.994 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 104, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.61}]]
+17:15:19.994 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.61}]
+17:15:23.005 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 105, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.63}]]
+17:15:23.005 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.63}]
+17:15:23.005 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.63}]
+17:15:26.020 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 106, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.65}]]
+17:15:26.021 [main] WARN  c.i.k.driver.chrome_1723722225062 - js eval failed once:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.65}]
+17:15:29.028 [nioEventLoopGroup-2-1] WARN  c.i.k.driver.chrome_1723722225062 - devtools error: [id: 107, sessionId: E252FD6883485DC4684230D5A03A2216, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.67}]]
+17:15:29.028 [main] ERROR c.i.k.driver.chrome_1723722225062 - js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.67}]
+17:15:29.029 [main] WARN  c.i.k.driver.chrome_1723722225062 - waitUntil evaluate failed: js eval failed twice:(function(){ var fun = function(_){ return _.textContent.includes('Whole Group Teacher Resources') }; var e = document.evaluate("//h3[text()='Whole Group Teacher Resources']", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'textContent')
+    at fun (<anonymous>:1:46)
+    at <anonymous>:1:226
+    at <anonymous>:1:235, objectId=-8140358101856018013.1.67}]
+17:15:29.029 [main] WARN  c.intuit.karate.driver.DriverOptions - waitUntil (js): failed after 10 retries and 63286 milliseconds
+17:15:29.042 [main] ERROR com.intuit.karate - classpath:BenchmarkEducation/FeatureFiles/BenchmarkUniverse.feature:107
+* retry(NoOfRetry).waitForText("//h3[text()='Whole Group Teacher Resources']",'Whole Group Teacher Resources')
+js failed:
+>>>>
+01: retry(NoOfRetry).waitForText("//h3[text()='Whole Group Teacher Resources']",'Whole Group Teacher Resources')
+<<<<
+org.graalvm.polyglot.PolyglotException: waitUntil (js): failed after 10 retries and 63286 milliseconds
+- com.intuit.karate.driver.DriverOptions.retry(DriverOptions.java:517)
+- com.intuit.karate.driver.DevToolsDriver.waitUntil(DevToolsDriver.java:765)
+- com.intuit.karate.driver.DriverOptions.waitUntil(DriverOptions.java:674)
+- com.intuit.karate.driver.Driver.waitUntil(Driver.java:283)
+- com.intuit.karate.driver.Driver.waitForText(Driver.java:247)
+- <js>.:program(Unnamed:1)
+
+classpath:BenchmarkEducation/FeatureFiles/BenchmarkUniverse.feature:107
+17:15:57.073 [chrome_1723722225062] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\PawanKumar\KarateAutomation\BenchMarkFramework\target\chrome_1723722225062, --disable-popup-blocking, --remote-allow-origins=*] working dir: target\chrome_1723722225062
+17:15:58.951 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:BenchmarkEducation/FeatureFiles/BenchmarkUniverse.feature
