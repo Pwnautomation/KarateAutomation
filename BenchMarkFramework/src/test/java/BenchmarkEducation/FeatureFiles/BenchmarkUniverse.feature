@@ -109,7 +109,7 @@ And driver maximize()
 * retry(NoOfRetry).waitFor("//div[contains(text(),'My Book')]")
 * retry(NoOfRetry).waitFor("//h3[1]").click()
 * mouse().move("//div[@data-id='X04083']//img[@class='container_wrap__section__thumbnail_image']").down().move("//div[@id='addAssignmentContainer']").up()
-* delay(5000)
+* delay(3000)
 
 
 
