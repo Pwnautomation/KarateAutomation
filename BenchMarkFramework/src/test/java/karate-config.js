@@ -28,7 +28,7 @@ function fn() {
   }
 
   if (env == 'qa') {
-    baseUrl = "https://practicetestautomation.com/practice-test-login/"
+    baseUrl = "https://lms2-qa.benchmarkuniverse.com/?realm=bec-micro#"
     }
     
     else if (env == 'staging') {
